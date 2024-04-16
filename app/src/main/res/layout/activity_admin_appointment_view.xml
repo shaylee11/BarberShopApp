@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".admin_appointmentView">
+
+    <LinearLayout
+        android:id="@+id/layout_adminApp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adminNoOrder_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="The shop Has no orders for now 🫣"
+        android:textColor="#000"
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</LinearLayout>

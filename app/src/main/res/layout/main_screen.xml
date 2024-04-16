@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Hello!"/>
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp"
+        android:text="Choose your barber"
+        android:textSize="40sp" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/barber1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber1_img"
+                android:layout_width="90dp"
+                android:layout_height="88dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/boy_barber" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barber1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barber2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber2_img"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/boy_barber"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/babrber2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barber3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber3_img"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boy_barber"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barber3" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/barber4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber4_img"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/boy_barber"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barber4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barber5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber5_img"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/girl_barber"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barber5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barber6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/barber6_img"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/girl_barber"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barber6" />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_frame"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <CalendarView
+            android:id="@+id/picked_cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_pick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="test"/>
+
+    </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/grid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="290dp"
+            android:columnCount="3"
+            android:rowCount="1"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:id="@+id/my_appointment"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/my_appointement_img"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/calender" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_appointement" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FF9800"
+                    android:text="@string/logout"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cancel_order"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cancel_order_img"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/cancel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel_order"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+
+    </LinearLayout>

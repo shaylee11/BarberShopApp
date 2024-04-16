@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">logout</string>
+    <string name="full_name">full name</string>
+    <string name="phone_number">phone number</string>
+    <string name="josh">Josh</string>
+    <string name="babrber2">Liam</string>
+    <string name="barber1">Josh</string>
+    <string name="barber3">Oliver</string>
+    <string name="barber4">Henry</string>
+    <string name="barber5">Amelia</string>
+    <string name="barber6">Mia</string>
+    <string name="my_orders">My orders</string>
+    <string name="my_appointement">My appointement</string>
+    <string name="cancel_order">Cancel order</string>
+    <string name="login_now">already have a user? \nLog in now!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_appoint_picker">appoint_picker</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="book_now">Book now!</string>
+    <string name="submit">Submit</string>
+    <string name="closing_time">Closing time</string>
+    <string name="opening_time">Opening time</string>
+</resources>
